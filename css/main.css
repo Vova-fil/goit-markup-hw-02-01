@@ -1,0 +1,128 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 ; */
+/* белый #e5e5e5  */
+/* акцент #2196f3 */
+/* вторичный цвет фона #ffffff; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+
+  --primary-white-color: #e5e5e5;
+  --secondary-bg-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2;
+}
+h2 {
+  color: var(--title-text-color);
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+h3 {
+  color: var(--title-text-color);
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 2px solid tomato;
+}
+/* Site nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+
+  font-style: normal;text
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.link-items .current {
+  color: var(--primary-text-color);
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.link-items .current:hover,
+.link-items .current:focus {
+  color: var(--accent-color);
+}
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/* Hero */
+
+.hero {
+  text-align: center;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 40px;
+
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+}
+.text-benefits p {
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+.position p {font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;}
