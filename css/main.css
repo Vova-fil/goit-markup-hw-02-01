@@ -49,6 +49,7 @@ h3 {
   padding-right: 20px;
   outline: 2px solid tomato;
 }
+
 /* Site nav */
 .site-nav-logo {
   font-family: Raleway;
@@ -204,3 +205,46 @@ letter-spacing: 0.03em;
 
 color: #FFFFFF;
 }
+/* Наше портфолио */
+
+.portfolio-button  {
+  color: #212121;
+  background-color:#F5F4FA;
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+  background-color: #2196F3
+  
+}
+
+.portfolio-button h2{
+color: var(--title-text-color);
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2.0;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+}
+.portfolio-button p{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.88;
+/* identical to box height, or 187% */
+
+letter-spacing: 0.03em;
+
+}
+
