@@ -122,7 +122,22 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 }
-.position p {font-style: normal;
+.position p {
+font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 19px;}
+line-height: 1.19;
+}
+
+.link-bottom {
+color: rgba(255, 255, 255, 0.6);
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+.link-bottom:hover,
+.link-bottom:focus {
+  color: var(--accent-color);
+}
