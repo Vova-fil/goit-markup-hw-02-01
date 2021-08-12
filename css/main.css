@@ -30,7 +30,6 @@ h2 {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 h3 {
@@ -51,7 +50,31 @@ h3 {
   outline: 2px solid tomato;
 }
 /* Site nav */
+.site-nav-logo {
+  font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
 
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+.site-nav-logo span{
+  font-family: Raleway;
+  font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #000000;
+
+}
 .site-nav .link {
   color: var(--title-text-color);
 
@@ -115,6 +138,7 @@ h3 {
   font-size: 16px;
   line-height: 1.88;
 }
+/* преимущества*/
 .text-benefits p {
 font-style: normal;
 font-weight: normal;
@@ -122,13 +146,17 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 }
+/* Сотрудники */
 .position p {
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 1.19;
 }
-
+/* Футер */
+.bottom{
+  background-color: #2F303A;
+}
 .link-bottom {
 color: rgba(255, 255, 255, 0.6);
 font-style: normal;
@@ -140,4 +168,39 @@ letter-spacing: 0.03em;
 .link-bottom:hover,
 .link-bottom:focus {
   color: var(--accent-color);
+}
+.bottom address{
+  font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+}
+.bottom-logo {
+  font-family: Raleway;
+  font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+.bottom-logo span {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
 }
