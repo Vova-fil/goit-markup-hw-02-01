@@ -26,8 +26,7 @@ body {
 h2 {
   color: var(--title-text-color);
 
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -35,8 +34,7 @@ h2 {
 h3 {
   color: var(--title-text-color);
 
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -45,40 +43,35 @@ h3 {
 .list {
   list-style: none;
 }
-.link{
+.link {
   text-decoration: none;
 }
 
 /* Site nav */
 .site-nav-logo {
-  font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-/* identical to box height */
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #2196F3;
+  color: #2196f3;
 }
-.site-nav-logo span{
-  font-family: Raleway;
-  font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-/* identical to box height */
+.site-nav-logo span {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #000000;
-
+  color: #000000;
 }
 .site-nav .link {
   color: var(--title-text-color);
-
-  font-style: normal;text
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
@@ -93,8 +86,6 @@ color: #000000;
 
 .link-items .current {
   color: var(--primary-text-color);
-
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
@@ -121,7 +112,6 @@ color: #000000;
   margin-bottom: 40px;
 
   color: #ffffff;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -133,115 +123,99 @@ color: #000000;
 .button {
   color: #ffffff;
   background-color: #2196f3;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
 }
 /* преимущества*/
 .text-benefits p {
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 /* Сотрудники */
 .position p {
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.19;
+  font-size: 16px;
+  line-height: 1.19;
 }
 /* Футер */
-.bottom{
-  background-color: #2F303A;
+.bottom {
+  background-color: #2f303a;
 }
 .link-bottom {
-color: rgba(255, 255, 255, 0.6);
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .link-bottom:hover,
 .link-bottom:focus {
   color: var(--accent-color);
 }
-.bottom address{
-  font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
+.bottom address {
+  font-size: 14px;
+  line-height: 1.71;
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #FFFFFF;
-
+  color: #ffffff;
 }
 .bottom-logo {
-  font-family: Raleway;
-  font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-/* identical to box height */
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #2196F3;
+  color: #2196f3;
 }
 .bottom-logo span {
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-/* identical to box height */
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 /* Наше портфолио */
 
-.portfolio-button  {
+.portfolio-button {
   color: #212121;
-  background-color:#F5F4FA;
+  background-color: #f5f4fa;
   font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-/* identical to box height, or 162% */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
 
-text-align: center;
-letter-spacing: 0.03em;
-
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: #ffffff;
-  background-color: #2196F3
-  
+  background-color: #2196f3;
 }
 
-.portfolio-button h2{
-color: var(--title-text-color);
+.portfolio-button h2 {
+  color: var(--title-text-color);
 
-font-weight: 700;
-font-size: 18px;
-line-height: 2.0;
-/* identical to box height, or 200% */
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
 
-letter-spacing: 0.06em;
+  letter-spacing: 0.06em;
 }
-.portfolio-button p{
-font-size: 16px;
-line-height: 1.88;
-/* identical to box height, or 187% */
+.portfolio-button p {
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 187% */
 
-letter-spacing: 0.03em;
-
+  letter-spacing: 0.03em;
 }
-
