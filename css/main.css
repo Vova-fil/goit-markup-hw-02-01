@@ -41,13 +41,12 @@ h3 {
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1600px;
-  padding-left: 20px;
-  padding-right: 20px;
-  outline: 2px solid tomato;
+
+.list {
+  list-style: none;
+}
+.link{
+  text-decoration: none;
 }
 
 /* Site nav */
@@ -162,7 +161,7 @@ line-height: 1.19;
 color: rgba(255, 255, 255, 0.6);
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
+font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 }
@@ -229,8 +228,8 @@ letter-spacing: 0.03em;
 
 .portfolio-button h2{
 color: var(--title-text-color);
-font-style: normal;
-font-weight: bold;
+
+font-weight: 700;
 font-size: 18px;
 line-height: 2.0;
 /* identical to box height, or 200% */
@@ -238,8 +237,6 @@ line-height: 2.0;
 letter-spacing: 0.06em;
 }
 .portfolio-button p{
-font-style: normal;
-font-weight: normal;
 font-size: 16px;
 line-height: 1.88;
 /* identical to box height, or 187% */
