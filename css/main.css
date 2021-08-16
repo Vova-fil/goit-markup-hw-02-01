@@ -47,7 +47,10 @@ h3 {
   text-decoration: none;
 }
 
-/* Site nav */
+/*  Шапка Site nav */
+.page-header {
+  background-color: #ffffff;
+}
 .site-nav-logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -183,7 +186,14 @@ h3 {
   color: #ffffff;
 }
 /* Наше портфолио */
-
+.portfolio {
+  background-color: #ffffff;
+}
+.portfolio h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
 .portfolio-button {
   color: #212121;
   background-color: #f5f4fa;
